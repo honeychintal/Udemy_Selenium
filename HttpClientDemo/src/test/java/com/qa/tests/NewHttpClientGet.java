@@ -29,5 +29,9 @@ public class NewHttpClientGet {
 		System.out.println(response.body());
 		List<Activities> activities = mapper.readValue(response.body(),new TypeReference<List<Activities>>(){});
 		activities.stream().forEach(s->System.out.println(s));
-	}
+		
+		//mapper.readValue() is Method to deserialize JSON content from given JSON content String. 
+			//takes as Parameters:content and valueTypeRef
+				//content is json we need to deserialize and TypeReference is pojo which on which we want to convert as object 
+ 	}
 }
