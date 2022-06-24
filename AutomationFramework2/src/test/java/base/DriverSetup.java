@@ -35,7 +35,7 @@ public class DriverSetup {
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			crOption= new ChromeOptions();
-			crOption.addArguments("headless");
+//			crOption.addArguments("headless");
 			driver = new ChromeDriver(crOption);
 		} else if (browser.equals("edge")) {
 			WebDriverManager.edgedriver().setup();

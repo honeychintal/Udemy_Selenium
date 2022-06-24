@@ -4,16 +4,6 @@
   <listeners>
     <listener class-name="util.Listners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)" verbose="0">
-    <classes>
-      <class name="functionalTest.HomePageTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="homeAssertionTest"/>
-        </methods>
-      </class> <!-- functionalTest.HomePageTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
   <test thread-count="5" name="Test2(failed)" verbose="0">
     <classes>
       <class name="functionalTest.HomeTest">
