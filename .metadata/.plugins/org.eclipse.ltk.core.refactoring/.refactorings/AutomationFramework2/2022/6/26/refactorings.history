@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExtentReportUitl.java&apos; to &apos;June220622_Testng/src/test/java/utils&apos;&#x0D;&#x0A;- Original project: &apos;AutomationFramework2&apos;&#x0D;&#x0A;- Destination element: &apos;June220622_Testng/src/test/java/utils&apos;&#x0D;&#x0A;- Original element: &apos;util.ExtentReportUitl.java&apos;" description="Copy compilation unit" destination="=June220622_Testng/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;utils" element1="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;util{ExtentReportUitl.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1655906796365" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test One">
+	<groups>
+	<run>
+	<include name="smoke"/>
+	</run>
+	</groups>
+		<classes>
+			<class name="functionalTests.Class1">
+				<methods>
+					<exclude name="testC" /> <!-- excludes the given test name and execute other tests in class -->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test Two">
+		<groups>
+	<run>
+	<include name="regression"/>
+	</run>
+	</groups>
+		<classes>
+			<class name="functionalTests.Class2">
+				<methods>
+					<include name="testZ" /> <!-- excludes the given test name and execute other tests in class -->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

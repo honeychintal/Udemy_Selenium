@@ -1,0 +1,9 @@
+[INFO ] 2022-06-23 20:22:25.262 [main] Class1 - Log message in, beforemethod
+[INFO ] 2022-06-23 20:22:25.277 [main] Class1 - Log message in, beforemethod
+[INFO ] 2022-06-23 20:22:25.279 [main] Class1 - Log message in, beforemethod
+[INFO ] 2022-06-23 20:22:25.285 [main] Class1 - Log message in, beforemethod
+[INFO ] 2022-06-23 20:22:25.287 [main] Class1 - Log info message in, testLogging
+[ERROR] 2022-06-23 20:22:25.287 [main] Class1 - Log error message in, testLogging
+[WARN ] 2022-06-23 20:22:25.287 [main] Class1 - Log warn message in, testLogging
+[DEBUG] 2022-06-23 20:22:25.287 [main] Class1 - Log debug message in, testLogging
+[FATAL] 2022-06-23 20:22:25.287 [main] Class1 - Log fatal message in, testLogging

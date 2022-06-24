@@ -1,0 +1,27 @@
+package utils;
+
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class ExcelUtils {
+	static String filePath= System.getProperty("user.dir")+"/excel/DDT_excel.xlsx";
+	@Test
+	public void getRowCount() throws IOException {
+//		XSSFWorkbook workbook = null;
+		try {
+			XSSFWorkbook workbook = new XSSFWorkbook(filePath);
+			XSSFSheet sheet = workbook.getSheet("Sheet1"); // name of sheet in workbook
+			int rowsCount = sheet.getPhysicalNumberOfRows();
+			System.out.println("Number of Rows: "+rowsCount);
+		} catch (Exception e) {
+			System.out.println("caught exception :" + e);
+		}
+//		finally {
+//			workbook.close();
+//		}
+	}
+
+}

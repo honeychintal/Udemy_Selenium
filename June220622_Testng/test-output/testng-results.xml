@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-23T20:22:25 IST" name="Default suite" finished-at="2022-06-23T20:22:25 IST" duration-ms="94">
+    <groups>
+      <group name="regression">
+        <method signature="Class1.testA()[pri:0, instance:functionalTests.Class1@27953a83]" name="testA" class="functionalTests.Class1"/>
+        <method signature="Class1.testC()[pri:0, instance:functionalTests.Class1@27953a83]" name="testC" class="functionalTests.Class1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Class1.testB()[pri:0, instance:functionalTests.Class1@27953a83]" name="testB" class="functionalTests.Class1"/>
+        <method signature="Class1.testC()[pri:0, instance:functionalTests.Class1@27953a83]" name="testC" class="functionalTests.Class1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-06-23T20:22:25 IST" name="Default test" finished-at="2022-06-23T20:22:25 IST" duration-ms="94">
+      <class name="functionalTests.Class1">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="beforemethod" finished-at="2022-06-23T20:22:25 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testA()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="testA" finished-at="2022-06-23T20:22:25 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="beforemethod" finished-at="2022-06-23T20:22:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testB()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="testB" finished-at="2022-06-23T20:22:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="beforemethod" finished-at="2022-06-23T20:22:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testC()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="testC" finished-at="2022-06-23T20:22:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="beforemethod" finished-at="2022-06-23T20:22:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testLogging()[pri:0, instance:functionalTests.Class1@27953a83]" started-at="2022-06-23T20:22:25 IST" name="testLogging" finished-at="2022-06-23T20:22:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogging -->
+      </class> <!-- functionalTests.Class1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
