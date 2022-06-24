@@ -1,0 +1,10 @@
+package com.qa.util;
+import java.util.Base64;
+public class BasicAuthUtil {
+
+	public static String basicAuthString(String str)
+	{
+		String encodedString = Base64.getEncoder().encodeToString(str.getBytes());
+		return "Basic "+encodedString;
+	}
+}

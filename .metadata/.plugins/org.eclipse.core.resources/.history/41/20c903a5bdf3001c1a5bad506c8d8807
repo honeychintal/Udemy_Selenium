@@ -1,0 +1,15 @@
+package com.qa.data;
+
+import java.util.Date;
+
+import lombok.Builder;
+import lombok.Getter;
+
+@Getter
+@Builder
+public class Activities {
+	public int id;
+	public String title;
+	public Date dueDate;
+	public boolean completed;
+}

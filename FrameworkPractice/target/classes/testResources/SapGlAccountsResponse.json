@@ -1,0 +1,322 @@
+[
+    {
+        "id": "8539380190365185886",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Return Distribution Fee",
+        "channel": "Physical",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "-1068240581670691168",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Distribution Fee",
+        "channel": "DAM",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "-7224058590288674900",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Return",
+        "channel": "Physical",
+        "revenue": "400001",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "6956809076030316330",
+        "category": "Unidentified",
+        "region": "International",
+        "activityType": "Sales",
+        "channel": "Physical",
+        "revenue": "401001",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "-641568233669926099",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Distribution Fee",
+        "channel": "Digital",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "5346004233520863175",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Return",
+        "channel": "Digital",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "5189907275713468115",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Return Distribution Fee",
+        "channel": "Digital",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "1126657131108709177",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Sales",
+        "channel": "Physical",
+        "revenue": "400001",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "-2686939695626953114",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Return",
+        "channel": "Physical",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "5636196720896940907",
+        "category": "Unauthorized",
+        "region": "International",
+        "activityType": "Sales",
+        "channel": "Physical",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "-6645362415291051056",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Return",
+        "channel": "Digital",
+        "revenue": "400980",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "-6782405572305157123",
+        "category": "Unidentified",
+        "region": "International",
+        "activityType": "Return",
+        "channel": "Physical",
+        "revenue": "401001",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "-2770865885173206854",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Return Distribution Fee",
+        "channel": "Physical",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "-1080165588526820955",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Sales",
+        "channel": "Digital",
+        "revenue": "400980",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "2407900627837334364",
+        "category": "Unidentified",
+        "region": "International",
+        "activityType": "Sales",
+        "channel": "Digital",
+        "revenue": "400980",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "463090366524549222",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Distribution Fee",
+        "channel": "Physical",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "-8974065349440626026",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Return",
+        "channel": "DAM",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "-2138200846012908670",
+        "category": "Unauthorized",
+        "region": "International",
+        "activityType": "Return",
+        "channel": "Digital",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "-6199533851728999059",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Return Distribution Fee",
+        "channel": "DAM",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "3387495482459746972",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Return Distribution Fee",
+        "channel": "Digital",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "8915735272224194540",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Sales",
+        "channel": "DAM",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "5947288065862921324",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Sales",
+        "channel": "Digital",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "-1849699477321697490",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Sales",
+        "channel": "Physical",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "2781540026935283434",
+        "category": "Unauthorized",
+        "region": "Domestic",
+        "activityType": "Distribution Fee",
+        "channel": "DAM",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "8527237286692230071",
+        "category": "Unauthorized",
+        "region": "International",
+        "activityType": "Return",
+        "channel": "Physical",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "-8835621213839749710",
+        "category": "Unauthorized",
+        "region": "International",
+        "activityType": "Sales",
+        "channel": "Digital",
+        "revenue": "400117",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "8405852199315968457",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Distribution Fee",
+        "channel": "Digital",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "3158000462754919894",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Distribution Fee",
+        "channel": "Physical",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "-5979906982765783379",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Return",
+        "channel": "DAM",
+        "revenue": "400991",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    },
+    {
+        "id": "-3679491093113765949",
+        "category": "Unidentified",
+        "region": "International",
+        "activityType": "Return",
+        "channel": "Digital",
+        "revenue": "400980",
+        "revenueTaxCode": "Z2",
+        "offset": "260030"
+    },
+    {
+        "id": "9201845934282798471",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Return Distribution Fee",
+        "channel": "DAM",
+        "revenue": "120002",
+        "offset": "510015",
+        "offsetTaxCode": "Z6"
+    },
+    {
+        "id": "1538731896146868994",
+        "category": "Unidentified",
+        "region": "Domestic",
+        "activityType": "Sales",
+        "channel": "DAM",
+        "revenue": "400991",
+        "revenueTaxCode": "Z2",
+        "offset": "120001"
+    }
+]

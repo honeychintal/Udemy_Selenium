@@ -1,0 +1,26 @@
+package com.qa.tests;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+
+import org.testng.annotations.Test;
+
+public class NewHttpClientGet {
+
+	public static String uri="https://fakerestapi.azurewebsites.net/api/v1/Activities/";
+	@Test
+	public void getTest() throws IOException, InterruptedException
+	{
+		HttpClient client = HttpClient.newHttpClient();
+		HttpRequest request = HttpRequest.newBuilder()
+				.GET()
+				.header("Accept","application/json")
+				.uri(URI.create(uri))
+				.build();
+		HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+		System.out.println(response.body());
+	}
+}
