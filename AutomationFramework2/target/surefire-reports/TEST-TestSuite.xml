@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="326.525" tests="4" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="155.084" tests="4" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
@@ -65,81 +65,80 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="homeAssertionTest" classname="functionalTest.HomePageTest" time="66.55"/>
-  <testcase name="loginTest" classname="functionalTest.HomeTest" time="69.396">
-    <failure message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;LAPTOP-FB3E7NT5&apos;, ip: &apos;172.31.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [26bc7f67e8cb2b37af9db221bea20a51, clickElement {id=b10c6352-540f-43a8-912d-ad4d36d95f4b}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54747/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (26bc7f67e8cb2b37af9db221bea20a51)] -&gt; xpath: //*[contains(@class,&apos;register-btn&apos;)]]&#10;Session ID: 26bc7f67e8cb2b37af9db221bea20a51" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.53)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [26bc7f67e8cb2b37af9db221bea20a51, clickElement {id=b10c6352-540f-43a8-912d-ad4d36d95f4b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54747/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (26bc7f67e8cb2b37af9db221bea20a51)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: 26bc7f67e8cb2b37af9db221bea20a51
-	at functionalTest.HomeTest.loginTest(HomeTest.java:21)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52133
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jun 24, 2022 3:58:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jun 24, 2022 3:58:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
-Jun 24, 2022 3:58:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 101
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest" classname="functionalTest.HomeTest" time="99.119">
-    <failure message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;LAPTOP-FB3E7NT5&apos;, ip: &apos;172.31.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [06c4383e212803a0a72102ea78008d45, clickElement {id=55a70279-cabd-4726-812f-2dc32860c15a}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54868/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (06c4383e212803a0a72102ea78008d45)] -&gt; xpath: //*[contains(@class,&apos;register-btn&apos;)]]&#10;Session ID: 06c4383e212803a0a72102ea78008d45" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.53)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06c4383e212803a0a72102ea78008d45, clickElement {id=55a70279-cabd-4726-812f-2dc32860c15a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54868/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (06c4383e212803a0a72102ea78008d45)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: 06c4383e212803a0a72102ea78008d45
-	at functionalTest.HomeTest.loginTest(HomeTest.java:21)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52211
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jun 24, 2022 4:00:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jun 24, 2022 4:00:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
-Jun 24, 2022 4:00:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 101
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest" classname="functionalTest.HomeTest" time="80.946">
-    <failure message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;LAPTOP-FB3E7NT5&apos;, ip: &apos;172.31.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e44c599ca4c1efa3ccef8f9e9d97168a, clickElement {id=8dcf9689-5de5-4110-abe9-5c5580c4b3ed}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54996/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (e44c599ca4c1efa3ccef8f9e9d97168a)] -&gt; xpath: //*[contains(@class,&apos;register-btn&apos;)]]&#10;Session ID: e44c599ca4c1efa3ccef8f9e9d97168a" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+  <testcase name="homeAssertionTest" classname="functionalTest.HomePageTest" time="52.89"/>
+  <testcase name="loginTest" classname="functionalTest.HomeTest" time="24.737">
+    <failure message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;LAPTOP-FB3E7NT5&apos;, ip: &apos;10.25.196.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c2fbb93370b3bfefb4a31de0c321070f, clickElement {id=01d4f821-1a51-4aef-983e-6edfa1650829}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50455/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (c2fbb93370b3bfefb4a31de0c321070f)] -&gt; xpath: //*[contains(@class,&apos;register-btn&apos;)]]&#10;Session ID: c2fbb93370b3bfefb4a31de0c321070f" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
 unknown error: unexpected command response
   (Session info: chrome=103.0.5060.53)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e44c599ca4c1efa3ccef8f9e9d97168a, clickElement {id=8dcf9689-5de5-4110-abe9-5c5580c4b3ed}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54996/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e44c599ca4c1efa3ccef8f9e9d97168a)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: e44c599ca4c1efa3ccef8f9e9d97168a
+Command: [c2fbb93370b3bfefb4a31de0c321070f, clickElement {id=01d4f821-1a51-4aef-983e-6edfa1650829}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50455/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c2fbb93370b3bfefb4a31de0c321070f)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: c2fbb93370b3bfefb4a31de0c321070f
 	at functionalTest.HomeTest.loginTest(HomeTest.java:21)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64828
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54210
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 24, 2022 4:01:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 27, 2022 3:25:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 24, 2022 4:01:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2022 3:25:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
-Jun 24, 2022 4:01:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2022 3:25:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="functionalTest.HomeTest" time="32.121">
+    <failure message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;LAPTOP-FB3E7NT5&apos;, ip: &apos;10.25.196.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3b86dd50e7ef31f389645a36d080c9ab, clickElement {id=aa6cc1a2-ae2c-4648-b3dc-438d109dd754}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (3b86dd50e7ef31f389645a36d080c9ab)] -&gt; xpath: //*[contains(@class,&apos;register-btn&apos;)]]&#10;Session ID: 3b86dd50e7ef31f389645a36d080c9ab" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b86dd50e7ef31f389645a36d080c9ab, clickElement {id=aa6cc1a2-ae2c-4648-b3dc-438d109dd754}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b86dd50e7ef31f389645a36d080c9ab)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: 3b86dd50e7ef31f389645a36d080c9ab
+	at functionalTest.HomeTest.loginTest(HomeTest.java:21)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52659
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 27, 2022 3:26:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 27, 2022 3:26:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
+Jun 27, 2022 3:26:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="functionalTest.HomeTest" time="39.733">
+    <failure message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;LAPTOP-FB3E7NT5&apos;, ip: &apos;10.25.196.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [20946d384b6ffec37019e9ec52bf0384, clickElement {id=b255e7ff-7847-4a25-83a0-f7c619a72086}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50598/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (20946d384b6ffec37019e9ec52bf0384)] -&gt; xpath: //*[contains(@class,&apos;register-btn&apos;)]]&#10;Session ID: 20946d384b6ffec37019e9ec52bf0384" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20946d384b6ffec37019e9ec52bf0384, clickElement {id=b255e7ff-7847-4a25-83a0-f7c619a72086}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50598/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20946d384b6ffec37019e9ec52bf0384)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: 20946d384b6ffec37019e9ec52bf0384
+	at functionalTest.HomeTest.loginTest(HomeTest.java:21)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 65282
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 27, 2022 3:26:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 27, 2022 3:26:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
+Jun 27, 2022 3:26:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 103 of 101
 ]]></system-err>
   </testcase>

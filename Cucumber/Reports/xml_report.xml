@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.283">
+    <testcase classname="Cucumber Expressions deomonstration feature" name="Test All Cucumber expressions" time="0.032">
+        <system-out>
+            <![CDATA[Given pass the string "Good Morning"........................................passed
+And I have 50 cucumbers in my belly.........................................passed
+And I got 98.99 percent.....................................................passed
+And The one word is Wonderful...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Successful Login with Valid Credentials" time="0.004">
+        <system-out>
+            <![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName "Rahul" and Password "KingRahul123"................passed
+Then Message displayed Login Successfully...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login feature with parameters" name="Login with multiple credentials" time="0.005">
+        <system-out>
+            <![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName Ravi kishan and Password ravikishan@amul.com.......passed
+Then Message displayed Login success........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login feature with parameters" name="Login with multiple credentials 2" time="0.003">
+        <system-out>
+            <![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName Kesarilal Yadav and Password kesarilal@yadav.com...passed
+Then Message displayed Login Fail...........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

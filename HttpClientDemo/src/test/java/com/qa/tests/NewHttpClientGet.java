@@ -25,6 +25,7 @@ public class NewHttpClientGet {
 				.header("Accept","application/json")
 				.uri(URI.create(uri))
 				.build();
+		
 		HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 		System.out.println(response.body());
 		List<Activities> activities = mapper.readValue(response.body(),new TypeReference<List<Activities>>(){});

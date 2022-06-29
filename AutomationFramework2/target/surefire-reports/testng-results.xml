@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-24T15:57:42 IST" name="Suite" finished-at="2022-06-24T16:03:03 IST" duration-ms="321228">
+  <suite started-at="2022-06-27T15:24:50 IST" name="Suite" finished-at="2022-06-27T15:27:23 IST" duration-ms="152471">
     <groups>
     </groups>
-    <test started-at="2022-06-24T15:57:42 IST" name="Test" finished-at="2022-06-24T15:58:49 IST" duration-ms="67575">
+    <test started-at="2022-06-27T15:24:50 IST" name="Test" finished-at="2022-06-27T15:25:44 IST" duration-ms="54245">
       <class name="functionalTest.HomePageTest">
-        <test-method signature="homeAssertionTest()[pri:0, instance:functionalTest.HomePageTest@c65a5ef]" started-at="2022-06-24T15:57:42 IST" name="homeAssertionTest" finished-at="2022-06-24T15:58:48 IST" duration-ms="66373" status="PASS">
+        <test-method signature="homeAssertionTest()[pri:0, instance:functionalTest.HomePageTest@74cec793]" started-at="2022-06-27T15:24:50 IST" name="homeAssertionTest" finished-at="2022-06-27T15:25:43 IST" duration-ms="52867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeAssertionTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:functionalTest.HomePageTest@c65a5ef]" started-at="2022-06-24T15:58:48 IST" name="teardown" finished-at="2022-06-24T15:58:49 IST" duration-ms="1122" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:functionalTest.HomePageTest@74cec793]" started-at="2022-06-27T15:25:43 IST" name="teardown" finished-at="2022-06-27T15:25:44 IST" duration-ms="1321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- functionalTest.HomePageTest -->
     </test> <!-- Test -->
-    <test started-at="2022-06-24T15:58:53 IST" name="Test2" finished-at="2022-06-24T16:03:03 IST" duration-ms="249767">
+    <test started-at="2022-06-27T15:25:45 IST" name="Test2" finished-at="2022-06-27T15:27:23 IST" duration-ms="97183">
       <class name="functionalTest.HomeTest">
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:functionalTest.HomeTest@3b9d6699]" started-at="2022-06-24T15:58:53 IST" name="loginTest" data-provider="getdata" finished-at="2022-06-24T15:59:39 IST" duration-ms="46121" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:functionalTest.HomeTest@c9413d8]" started-at="2022-06-27T15:25:45 IST" name="loginTest" data-provider="getdata" finished-at="2022-06-27T15:26:04 IST" duration-ms="18605" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -34,28 +34,26 @@
           </params>
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: cannot determine loading status
-from unknown error: unexpected command response
+              <![CDATA[unknown error: unexpected command response
   (Session info: chrome=103.0.5060.53)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [26bc7f67e8cb2b37af9db221bea20a51, clickElement {id=b10c6352-540f-43a8-912d-ad4d36d95f4b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54747/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (26bc7f67e8cb2b37af9db221bea20a51)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: 26bc7f67e8cb2b37af9db221bea20a51]]>
+Command: [c2fbb93370b3bfefb4a31de0c321070f, clickElement {id=01d4f821-1a51-4aef-983e-6edfa1650829}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50455/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c2fbb93370b3bfefb4a31de0c321070f)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: c2fbb93370b3bfefb4a31de0c321070f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from unknown error: unexpected command response
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unexpected command response
   (Session info: chrome=103.0.5060.53)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [26bc7f67e8cb2b37af9db221bea20a51, clickElement {id=b10c6352-540f-43a8-912d-ad4d36d95f4b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54747/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (26bc7f67e8cb2b37af9db221bea20a51)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: 26bc7f67e8cb2b37af9db221bea20a51
+Command: [c2fbb93370b3bfefb4a31de0c321070f, clickElement {id=01d4f821-1a51-4aef-983e-6edfa1650829}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50455/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c2fbb93370b3bfefb4a31de0c321070f)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: c2fbb93370b3bfefb4a31de0c321070f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -113,7 +111,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:functionalTest.HomeTest@3b9d6699]" started-at="2022-06-24T16:00:03 IST" name="loginTest" data-provider="getdata" finished-at="2022-06-24T16:00:36 IST" duration-ms="33929" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:functionalTest.HomeTest@c9413d8]" started-at="2022-06-27T15:26:10 IST" name="loginTest" data-provider="getdata" finished-at="2022-06-27T15:26:34 IST" duration-ms="23695" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -132,24 +130,24 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 from unknown error: unexpected command response
   (Session info: chrome=103.0.5060.53)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06c4383e212803a0a72102ea78008d45, clickElement {id=55a70279-cabd-4726-812f-2dc32860c15a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54868/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (06c4383e212803a0a72102ea78008d45)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: 06c4383e212803a0a72102ea78008d45]]>
+Command: [3b86dd50e7ef31f389645a36d080c9ab, clickElement {id=aa6cc1a2-ae2c-4648-b3dc-438d109dd754}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b86dd50e7ef31f389645a36d080c9ab)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: 3b86dd50e7ef31f389645a36d080c9ab]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
 from unknown error: unexpected command response
   (Session info: chrome=103.0.5060.53)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [06c4383e212803a0a72102ea78008d45, clickElement {id=55a70279-cabd-4726-812f-2dc32860c15a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54868/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (06c4383e212803a0a72102ea78008d45)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: 06c4383e212803a0a72102ea78008d45
+Command: [3b86dd50e7ef31f389645a36d080c9ab, clickElement {id=aa6cc1a2-ae2c-4648-b3dc-438d109dd754}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b86dd50e7ef31f389645a36d080c9ab)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: 3b86dd50e7ef31f389645a36d080c9ab
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -207,7 +205,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:functionalTest.HomeTest@3b9d6699]" started-at="2022-06-24T16:01:42 IST" name="loginTest" data-provider="getdata" finished-at="2022-06-24T16:02:41 IST" duration-ms="59446" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:functionalTest.HomeTest@c9413d8]" started-at="2022-06-27T15:26:42 IST" name="loginTest" data-provider="getdata" finished-at="2022-06-27T15:27:08 IST" duration-ms="25525" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -225,23 +223,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               <![CDATA[unknown error: unexpected command response
   (Session info: chrome=103.0.5060.53)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e44c599ca4c1efa3ccef8f9e9d97168a, clickElement {id=8dcf9689-5de5-4110-abe9-5c5580c4b3ed}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54996/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e44c599ca4c1efa3ccef8f9e9d97168a)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: e44c599ca4c1efa3ccef8f9e9d97168a]]>
+Command: [20946d384b6ffec37019e9ec52bf0384, clickElement {id=b255e7ff-7847-4a25-83a0-f7c619a72086}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50598/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20946d384b6ffec37019e9ec52bf0384)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: 20946d384b6ffec37019e9ec52bf0384]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unexpected command response
   (Session info: chrome=103.0.5060.53)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'LAPTOP-FB3E7NT5', ip: '172.31.48.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+System info: host: 'LAPTOP-FB3E7NT5', ip: '10.25.196.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e44c599ca4c1efa3ccef8f9e9d97168a, clickElement {id=8dcf9689-5de5-4110-abe9-5c5580c4b3ed}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54996/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e44c599ca4c1efa3ccef8f9e9d97168a)] -> xpath: //*[contains(@class,'register-btn')]]
-Session ID: e44c599ca4c1efa3ccef8f9e9d97168a
+Command: [20946d384b6ffec37019e9ec52bf0384, clickElement {id=b255e7ff-7847-4a25-83a0-f7c619a72086}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PRAJJA~1.CHI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50598/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20946d384b6ffec37019e9ec52bf0384)] -> xpath: //*[contains(@class,'register-btn')]]
+Session ID: 20946d384b6ffec37019e9ec52bf0384
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -299,7 +297,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:functionalTest.HomeTest@3b9d6699]" started-at="2022-06-24T16:03:03 IST" name="teardown" finished-at="2022-06-24T16:03:03 IST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:functionalTest.HomeTest@c9413d8]" started-at="2022-06-27T15:27:22 IST" name="teardown" finished-at="2022-06-27T15:27:23 IST" duration-ms="587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
